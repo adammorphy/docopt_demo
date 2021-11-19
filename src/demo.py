@@ -13,6 +13,17 @@ Options:
 
 from docopt import docopt
 opt = docopt(__doc__)
-print(opt)
-print(opt.arg4)
-print(type(opt))
+
+def main(file_path, var):
+    print(opt)
+    print(opt.arg4)
+    print(type(opt))
+
+
+if __name__ == "__main__":
+	    
+	# Call main method, and have the user input file path and var with opt$___
+    main()
+
+
+
